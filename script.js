@@ -83,7 +83,8 @@ function megfordul(event)
                 {
                     document.getElementById(elem).src=hatter;
                 });
-                kivalasztottTomb.splice[0];
+                kivalasztottTomb.splice(0);
+                console.log(kivalasztottTomb);
             },1000);
         }
         else
@@ -92,6 +93,8 @@ function megfordul(event)
             {
                 document.getElementById(elem).style.display="none";
             });
+            kivalasztottTomb.splice(0);
+            console.log(kivalasztottTomb);
         }
     }
 }
