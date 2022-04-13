@@ -1,0 +1,15 @@
+*
+{
+    box-sizing: border-box;
+}
+
+article #kartyak
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.kartya img
+{
+    width: 100%;
+}
